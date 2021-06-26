@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/barelyhuman/go-cli-template/cmd"
+	"github.com/barelyhuman/genreadme/cmd"
 )
 
 func main() {

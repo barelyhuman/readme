@@ -1,13 +1,13 @@
 package cmd
 
-import "fmt"
-
-var message string
+import (
+	readme "github.com/barelyhuman/genreadme/cmd/readme"
+)
 
 func Setup() {
-	message = "Hello World"
+	readme.Setup()
 }
 
 func Run() {
-	fmt.Println(message)
+	readme.Run()
 }

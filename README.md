@@ -1,25 +1,36 @@
-# go-cli-template
+<h1 align="center">Readme</h1>
+<p align="center">Opinionated Readme Generator</p>
 
-This is what I use for my own command-line tools built with go 
+If you like any of my work, you can support me on: [barelyhuman/donate](https://barelyhuman.dev/donate)
 
+## Motivation
 
-## Get Started
+Reduce the time I spend on thinking what the readme is to have as a structure and instead spend time on what I'd prefer writing in it.
 
-- fork this repo and use it as a template to create a new repo
+## Features
 
-**or**
+- Minimalistic CLI
+- Basic set of things to be answered
 
-- Use the tar archive of this repo to unwrap the code into a folder
-
-```sh
-$ mkdir <project-name>
-$ cd <project-name>
-$ curl -fsSL https://github.com/barelyhuman/go-cli-template/archive/dev.tar.gz | tar -xz --strip-components=1
-$ rm -rf go.mod
-$ go mod init <project-name>
+## Install 
+- Download the binary from the releases or build one yourself.
+```
+$ ln -sf /path/to/release/binary /usr/local/bin/genreadme
+# make sure you have /usr/local/bin in your PATH
 ```
 
-- Edit the main.go file to use the `<project-name>/cmd` instead of `github.com/barelyhuman/go-cli-template/cmd` 
-- Then run the code with `go run .` to see `Hello World` 
+## Usage
 
+```sh
+$ genreadme
+```
 
+- **Make sure to replace license type, holder of the license and feature lines in the generated readme**
+
+## Contribute
+
+The easiest way to contribute is to fork this repository and create a pull request with whatever issue you have picked up. Though, do let the maintainer know if you are picking up an issue so there are no overlaps
+
+## License
+
+[MIT](LICENSE) &copy; Reaper
